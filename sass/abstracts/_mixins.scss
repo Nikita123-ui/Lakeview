@@ -1,0 +1,15 @@
+@mixin center-object{
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+
+}
+
+@mixin clear-fix{
+	&::after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+}
+	
